@@ -9,38 +9,20 @@ function handleGithub() {
 </script>
 
 <template>
-  <var-app-bar
-    image="@/assets/material.jpg"
-    image-linear-gradient="to right top, rgba(72, 151, 221, 1) 0%, rgba(47, 0, 208, 0.1) 100%"
-  >
-    <template #right>
-      <var-button class="print-disabled" style="margin-top: 2px; margin-right: 4px;" round text color="transparent" text-color="#fff" @click="handlePrint">
-        <var-icon name="download" :size="30" />
-      </var-button>
-      <var-button class="print-disabled" style="margin-right: 10px" round text color="transparent" text-color="#fff" @click="handleGithub">
-        <var-icon name="github" :size="30" />
-      </var-button>
-    </template>
-
+  <var-app-bar image="@/assets/23964.jpg"
+    image-linear-gradient="to right top, rgba(72, 151, 221, 1) 0%, rgba(47, 0, 208, 0.1) 100%">
     <template #content>
       <div class="resume-app-bar-content">
         <div class="resume-app-bar-content-inner">
           <var-row :gutter="20">
             <var-col :span="8" :xs="24" justify="center">
-              <var-avatar
-                :size="180"
-                bordered
-                src="@/assets/avatar.jpg"
-              />
+              <var-avatar :size="180" bordered src="@/assets/avatar.jpg" />
             </var-col>
             <var-col direction="column" :span="16" :xs="24">
-              <div class="resume-app-bar-name">你的名字</div>
-              <div class="resume-app-bar-job">期望的岗位</div>
+              <div class="resume-app-bar-name">杨立业</div>
+              <div class="resume-app-bar-job">前端开发工程师</div>
               <div class="resume-app-bar-description">
-                介绍一下你自己，真诚一点，不要过分谦虚，也不要张狂。
-                介绍一下你自己，真诚一点，不要过分谦虚，也不要张狂。
-                介绍一下你自己，真诚一点，不要过分谦虚，也不要张狂。
-                介绍一下你自己，真诚一点，不要过分谦虚，也不要张狂。
+                3年前端开发经验，对技术有热情，写代码有洁癖，为人和善，很好相处！能够⾼效的完成开发任务。能够搭建完善的前端⼯具链和工作流。积极拥抱开源，有⾃⼰持续维护的开源项⽬，且有一直在学习新技术的热情并且付诸行动。
               </div>
             </var-col>
           </var-row>
@@ -52,7 +34,7 @@ function handleGithub() {
 
 <style lang="less" scoped>
 .resume-app-bar {
-  
+
   &-content {
     display: flex;
     justify-content: center;
