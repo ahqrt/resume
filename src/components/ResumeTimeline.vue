@@ -5,7 +5,7 @@ const companies = ref([
   {
     label: '百家云集团有限公司',
     date: '2021/09-至今',
-    description: '任高级前端开发工程师，主要负责视频会议web端和pc端的saas sdk开发。',
+    description: '任前端技术leader，主要负责视频会议web端和pc端的saas sdk开发。',
   },
   {
     label: '山东兆物网络技术股份有限公司',

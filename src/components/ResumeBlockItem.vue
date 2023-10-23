@@ -14,12 +14,9 @@ defineProps({
     <slot name="title">
       <div class="resume-block-item-title" v-if="title">{{ title }}</div>
     </slot>
-    <slot name="description">
-      <div class="resume-block-item-description" v-if="description">
-        {{ description }}
-      </div>
-    </slot>
-    <slot />
+    <div class="resume-block-item-description">
+      <slot></slot>
+    </div>
   </div>
 </template>
 

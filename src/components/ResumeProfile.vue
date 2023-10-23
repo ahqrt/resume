@@ -6,7 +6,7 @@
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-cake class="resume-profile-icon" />
-              <span>出生日期: 1998年02月20号</span>
+              <span>出生日期: 1998年02月</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0" border>
@@ -19,12 +19,6 @@
             <div class="resume-profile-cell">
               <icon-calendar class="resume-profile-icon" />
               <span>工作年限: 3年</span>
-            </div>
-          </var-cell>
-          <var-cell :border-offset="0" border>
-            <div class="resume-profile-cell">
-              <icon-account-group class="resume-profile-icon" />
-              <span>期望岗位: 前端开发工程师</span>
             </div>
           </var-cell>
 
@@ -43,13 +37,6 @@
             <div class="resume-profile-cell">
               <icon-email class="resume-profile-icon" />
               <span>邮箱: a18053180656@gmail.com</span>
-            </div>
-          </var-cell>
-
-          <var-cell :border-offset="0" border>
-            <div class="resume-profile-cell">
-              <icon-wechat class="resume-profile-icon" />
-              <span>微信: 18053180656</span>
             </div>
           </var-cell>
 
