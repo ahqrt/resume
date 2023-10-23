@@ -56,7 +56,7 @@
     </resume-block>
 
     <resume-block title="开源项目">
-      <resume-block-item title="varletjs/varlet (核心开发者)">
+      <resume-block-item title="varletjs/varlet">
         <p>一个基于 Vue3 的 Material Design 风格移动端组件库，尤雨溪 Vue 官方团队 2021 年 Vue Conf 推荐、Gitee GVP 年度最有价值开源项目、阮一峰周刊推荐。提供 60+
           个高质量通用组件，支持按需引入，国际化、SSR、暗黑模式、90% 以上的单元测试覆盖率，并提供了 VSCode 插件。</p>
       </resume-block-item>
