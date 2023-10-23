@@ -17,9 +17,13 @@
 
     <resume-blank :size="350"></resume-blank>
 
-    <resume-block title="项目经历" subtitle="**只列举部分典型项目**">
+    <resume-block title="项目经历" subtitle="只列举部分典型项目">
       <resume-block-item title="boom视频会议"
-        description="基于WebRTC的视频会议系统，主要技术栈是Typescript，React，Electron，React Native，在产品中主要负责会议内底层saas sdk的开发维护，主要开发会议内推拉流相关的业务模型开发维护，以及端上JsonRPC信令系统的开发和维护，提升大型会议系统的稳定性和性能。" />
+        description="基于WebRTC的视频会议系统，主要技术栈是Typescript，React，Electron，React Native。
+        在系统早期版本主要负责功能迭代和维护。后续在会议2.0升级中，作为前端技术leader，负责web和pc整体会议系统的升级迭代。并负责会议sdk核心底层功能开发，提供稳定的音视频通信能力。以及会议内的核心功能模块开发，
+        主要包括会议内推拉流相关的业务模型开发维护，以及端上JsonRPC信令系统的开发和维护，提升大型会议系统的稳定性和性能。实现了从最早版本200人不稳定的视频会议应用，到现在支持上万人同时在线的稳定视频会议应用。
+        在万人视频会议功能开发中，处理排查过比较复杂的内存泄漏问题。pc客户端主要通过electron开发，在实际的功能开发中，通过node addon的方式，实现了electron和c++的交互，提升了pc客户端的性能，扩展了pc客户端的功能。" 
+        />
       <resume-block-item title="中债一体化学习平台"
         description="该项目是为了满足中债公司内部业务需求而开发的学习平台，主要是做内部视频会议学习，考试系统。主要技术栈是React，React Native，React Native Web。在项目中主要负责使用React Native， React Native Web搭建开发一套代码三端运行的敏捷开发模式，和主要的视频会议和考试视频监控功能。" />
       <resume-block-item title="烟草舆情分析系统"
