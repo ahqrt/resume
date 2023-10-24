@@ -20,7 +20,7 @@
     <resume-block title="项目经历" subtitle="只列举部分典型项目">
       <resume-block-item title="boom视频会议">
         <p>项目简介: 基于WebRTC的视频会议系统</p>
-        <p>技术栈: Typescript，React，Electron，React Native</p>
+        <p>技术栈: Typescript、React、Electron、React Native</p>
         <p>工作内容：</p>
         <p>1. 在系统早期版本主要负责功能迭代和维护。</p>
         <p>2. 后续在会议2.0升级中，作为前端技术leader，和架构师确定web和pc整体会议系统的升级迭代技术选型。</p>
@@ -36,7 +36,7 @@
       </resume-block-item>
       <resume-block-item title="boom-engineering-kit">
         <p>项目简介: 部门前端组基础工具包</p>
-        <p>技术栈: Typescript，React，React Native, Electron</p>
+        <p>技术栈: Typescript、React、React Native、Electron</p>
         <p>工作内容：</p>
         <p>1. 开发的前端部门的cli工具，包括各种开发环境的template 脚手架，以及各种开发工具的插件，包括eslint，stylelint，prettier，husky，lint-staged，commitlint等。
         </p>
@@ -47,7 +47,7 @@
       </resume-block-item>
       <resume-block-item title="中债一体化学习平台">
         <p>项目简介: 基于视频会议应用的产品化项目开发</p>
-        <p>技术栈: React，React Native, React Native Web</p>
+        <p>技术栈: React、React Native、React Native Web</p>
         <p>工作内容：</p>
         <p>1. 在项目中主要负责使用 React Native，React Native Web搭建开发一套代码在web， iOS，Android都可以运行的敏捷开发架构模式。</p>
         <p>2. 负责前期项目的搭建，包括移动端和web端的路由拆分，通用组件的开发，以及响应式布局。</p>
@@ -56,11 +56,17 @@
     </resume-block>
 
     <resume-block title="开源项目">
-      <resume-block-item title="varletjs/varlet">
+      <resume-block-item>
+        <template v-slot:title>
+          <a href="https://github.com/varletjs/varlet">varletjs/varlet(4.4k star)</a>
+        </template>
         <p>一个基于 Vue3 的 Material Design 风格移动端组件库，尤雨溪 Vue 官方团队 2021 年 Vue Conf 推荐、Gitee GVP 年度最有价值开源项目、阮一峰周刊推荐。提供 60+
           个高质量通用组件，支持按需引入，国际化、SSR、暗黑模式、90% 以上的单元测试覆盖率，并提供了 VSCode 插件。</p>
       </resume-block-item>
-      <resume-block-item title="mdn/webaudio-example">
+      <resume-block-item>
+        <template v-slot:title>
+          <a href="https://github.com/mdn/webaudio-examples">mdn/webaudio-example(1.1k star)</a>
+        </template>
         <p>MDN web audio article 系列部分章节内容输出，文档错误校验。</p>
       </resume-block-item>
     </resume-block>
